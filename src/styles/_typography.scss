@@ -1,0 +1,33 @@
+@layer {
+  [data-text-preset="1-regular"] {
+    font-family: var(--ff-kumbh-sans);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-18);
+    line-height: var(--lh-125);
+    letter-spacing: var(--ls-000);
+  }
+
+  [data-text-preset="1-bold"] {
+    font-family: var(--ff-kumbh-sans);
+    font-weight: var(--fw-700);
+    font-size: var(--fs-18);
+    line-height: var(--lh-125);
+    letter-spacing: var(--ls-000);
+  }
+
+  [data-text-preset="2"] {
+    font-family: var(--ff-kumbh-sans);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-14);
+    line-height: var(--lh-125);
+    letter-spacing: var(--ls-000);
+  }
+
+  [data-text-preset="3"] {
+    font-family: var(--ff-kumbh-sans);
+    font-weight: var(--fw-400);
+    font-size: var(--fs-10);
+    line-height: var(--lh-125);
+    letter-spacing: var(--ls-150);
+  }
+}

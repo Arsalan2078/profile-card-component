@@ -1,0 +1,30 @@
+@layer {
+  :root {
+    // COLORS
+    --c-white: rgba(255 255 255 / 1);
+    --c-gray-500: rgba(107 112 130 / 1);
+    --c-gray-100: rgba(232 233 236 / 1);
+    --c-blue-600: rgba(25 161 174 / 1);
+    --c-blue-400: rgba(65 203 211 / 1);
+    --c-navy-950: rgba(46 51 73 / 1);
+    --c-grd-1-start: rgba(85 255 238 / 1);
+    --c-grd-1-end: rgba(9 137 180 / 0);
+
+    // TYPE
+    --ff-kumbh-sans: "Kumbh Sans", sans-serif;
+    --fw-400: 400;
+    --fw-700: 700;
+    --fs-18: calc(18 / 16 * 1rem);
+    --fs-14: calc(14 / 16 * 1rem);
+    --fs-10: calc(10 / 16 * 1rem);
+    --lh-125: 1.25;
+    --ls-000: 0;
+    --ls-150: calc(1.5 / 16 * 1rem);
+
+    // BG IMAGES
+    --bg-grd-1: linear-gradient(0deg, var(--c-grd-1-start), var(--c-grd-1-end));
+
+    // ROOT STYLES
+    background: var(--c-blue-600);
+  }
+}
